@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+ 
+  <category>
+      <pattern> Hello </pattern>
+      <template> Good day. Welcome to Ghost Bank . How may we delight you today please? </template>
+  </category>
+  
+  <category>
+      <pattern>I want to know the statement of my account</pattern>
+      <template>what is your  name</template>
+  </category>
+  
+  <category>
+      <pattern> my name is * *</pattern>
+      <template>Hello <star index="1"/></template>
+  </category>
+  
+  <category>
+      <pattern>What's your account number</pattern>
+      <template>Hi how can i be of help</template>
+  </category>
+<button>
+    <text>email</text>
+    <postback>Thank you </postback>
+</button>
+<category>
+    <pattern>What's your name </pattern>
+    <template>Hello </template>
+</category>
+</aiml>
