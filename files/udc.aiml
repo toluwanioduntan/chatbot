@@ -12,20 +12,16 @@
   </category>
   
   <category>
-      <pattern> my name is * *</pattern>
-      <template>Hello <star index="1"/></template>
+      <pattern> my name is *</pattern>
+
+       <template>Hello <star index="1"/> what is your email?</template>
   </category>
-  
   <category>
-      <pattern>What's your account number</pattern>
-      <template>Hi how can i be of help</template>
+      <pattern> my email is * </pattern>
+      <template>what is your account numbner</template>
   </category>
-<button>
-    <text>email</text>
-    <postback>Thank you </postback>
-</button>
-<category>
-    <pattern>What's your name </pattern>
-    <template>Hello </template>
-</category>
+  <category>
+      <pattern> *</pattern>
+      <template>Great! in  a short time your statement will be sent to your email. Thanks for banking with us</template>
+  </category>
 </aiml>
